@@ -13,25 +13,27 @@ import com.nttdata.spring.t2.bravo.repository.Producto;
 @Service
 public class IGestionMensajeriaPeninsulaImpl implements IGestionMensajeriaService {
 
-	
-
-	@Override
-	public void addProductToAnOrder(Pedido pedido, boolean indiciador) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void breakDownOrder(Producto producto, double price) {
-		// TODO Auto-generated method stub
-		
-	}
-
 	@Override
 	public Pedido createOrder(Producto producto, String direccion, double precio) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public void addProductToAnOrder(Pedido pedido, Producto producto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void breakDownOrder(Pedido pedido) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+
 
 
 }
